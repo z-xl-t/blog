@@ -1,7 +1,7 @@
 ---
 title: "valaxy-theme-aurora使用指南"
-tags: [valaxy, aurora]
-categories: [使用指南]
+tags: ["valaxy", "theme-aurora"]
+categories: [notebook]
 imageUrl: 'https://i.loli.net/2020/06/30/iGW3CIPSUZas4Yx.jpg'
 description: 'valaxy 是一款超级快的静态博客框架'
 comment: true

@@ -1,7 +1,7 @@
 ---
 title: "红米 K60Pro 刷 EU Stable ROM"
-tags: [Redmi, ROM]
-categories: [刷机]
+tags: ["RedmiK60Pro", "ROM", "刷机"]
+categories: [notebook]
 imageUrl: ''
 description: '红米 K60Pro 刷 EU Stable ROM,来提高个人使用体验。'
 comment: true
