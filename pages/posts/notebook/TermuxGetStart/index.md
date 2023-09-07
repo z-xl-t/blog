@@ -3,7 +3,7 @@ title: "termux 基本配置"
 tags: ["termux", "k60pro", "android"]
 categories: [notebook]
 imageUrl: ''
-description: 'Termux是一个安卓手机模拟Linux环境，本文是基于个人喜欢的基本配置'
+description: 'Termux是一个安卓手机模拟Linux环境，本文是基于个人喜好的基本配置'
 comment: true
 date: 2023-09-06 14:42:06 +8
 ---
