@@ -15,7 +15,7 @@ date: 2023-09-06 14:42:06 +8
 
 ## 基本说明
 
-Termux 上面的命令，大部分跟 Linux 命令相同。由于 Termux 只是模拟 Linux 环境，所有文件结构会跟标准的 Linux 文件目录不一致，详情参考 [Termux file system layout](https://github.com/termux/termux-packages/wiki/Termux-file-system-layout)。
+Termux 上面的命令，大部分跟 Linux 命令相同。由于 Termux 只是模拟 Linux 环境，所以文件结构会跟标准的 Linux 文件目录不一致，详情参考 [Termux file system layout](https://github.com/termux/termux-packages/wiki/Termux-file-system-layout)。
 
 1. `/data/data/com.termux/files/home` 即 `~` 主目录。建议所有操作在此目录下进行。
 2. `/data/data/com.termux/files/usr` 即 `$PREFIX`。 所有适配 termux 的软件包，都需要把相应的程序、链接和配置映射到这个目录。
@@ -90,7 +90,7 @@ exit
 # 如果不想进入 root 用户，但使用 root 权限，则应该使用 sudo 命令
 cd /
 ls # 提示无权限
-su ls # 正常显示
+sudo ls # 正常显示
 ```
 
 
@@ -128,7 +128,7 @@ ifconfig
 # 查看当前用户
 whomi
 
-# 开启 sshd， 默认开放端口是 8022， 而不是 22 端口
+# 开启 sshd， 默认监听端口是 8022， 而不是 22 端口
 sshd
 
 # 配置 sshd 文件在 /data/data/com.termux/files/usr/etc/ssh/sshd_config
@@ -137,6 +137,8 @@ vim $PREFIX/etc/ssh/sshd_config
 
 # 禁止 root 用户登录 和 密码登录
 ##################
+# 可以更改监听端口
+# ListenAddress: 0.0.0.0:2222
 PermitRootLogin no
 PrintMotd yes
 PasswordAuthentication no
@@ -183,7 +185,6 @@ pkill sshd
 * [NPM换源的方法](https://juejin.cn/post/7100751629820887047)
 * [Termux Wiki Remote Access](https://wiki.termux.com/wiki/Remote_Access)
 * [Is it possible to make work symlinks on mounted internal storage](https://github.com/termux/termux-app/issues/513)
-
 * [Termux 高级终端安装使用配置教程 【推荐阅读，细致的配置教程】](https://www.sqlsec.com/2018/05/termux.html)
 
 
