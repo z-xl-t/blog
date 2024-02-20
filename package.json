@@ -14,8 +14,7 @@
   "dependencies": {
     "valaxy": "^0.14.40",
     "valaxy-addon-waline": "^0.1.0",
-    "valaxy-theme-aurora": "^0.1.10",
-    "valaxy-theme-yun": "0.14.28"
+    "valaxy-theme-aurora": "^0.1.10"
   },
   "devDependencies": {
     "typescript": "^4.9.5"

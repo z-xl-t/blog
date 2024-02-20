@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   valaxy:
     specifier: ^0.14.40
@@ -8,11 +12,8 @@ dependencies:
     specifier: ^0.1.0
     version: 0.1.0(valaxy@0.14.40)
   valaxy-theme-aurora:
-    specifier: ^0.1.8
-    version: 0.1.8
-  valaxy-theme-yun:
-    specifier: 0.14.28
-    version: 0.14.28(valaxy@0.14.40)
+    specifier: ^0.1.10
+    version: 0.1.10
 
 devDependencies:
   typescript:
@@ -270,12 +271,6 @@ packages:
     dev: false
     optional: true
 
-  /@iconify-json/ant-design@1.1.5:
-    resolution: {integrity: sha512-lNEC95u9QdmS3GfMLnbAjLZCfQ9i4xURyn7P4UVHa6ejjLjs5FVyi/J+itrmnBpwb36YZo4CT0GDIn2AgvkNng==}
-    dependencies:
-      '@iconify/types': 2.0.0
-    dev: false
-
   /@iconify-json/carbon@1.1.18:
     resolution: {integrity: sha512-RbKET6KS9xUMeYVq1FUH3UUA7AYNcnApkHt2AccCwTWTQQs/O58ji4Of6z6PhRajGlbfvrJzT/Uqh19OKECRvA==}
     dependencies:
@@ -284,12 +279,6 @@ packages:
 
   /@iconify-json/ri@1.1.10:
     resolution: {integrity: sha512-fsJuXLfpdxb9pfn8LFcfM6LS82j358HaI29Y1qcH1UDnt/V439rTivV6v/YSLkd4z/dZIbh5iOR8+Cg4qtu5Rw==}
-    dependencies:
-      '@iconify/types': 2.0.0
-    dev: false
-
-  /@iconify-json/simple-icons@1.1.53:
-    resolution: {integrity: sha512-RyNBNJIhFvAc2Hyw7QCyG4/bU1f0wcMd3inN9k3UPimp3b9YZKjmXHuuNtgv1vSbwAwPWPGl4oJIjPLiBtIUNQ==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: false
@@ -1067,10 +1056,6 @@ packages:
       debug: 4.3.4
     transitivePeerDependencies:
       - supports-color
-    dev: false
-
-  /animejs@3.2.1:
-    resolution: {integrity: sha512-sWno3ugFryK5nhiDm/2BKeFCpZv7vzerWUcUPyAZLDhMek3+S/p418ldZJbJXo5ZUOpfm2kP2XRO4NJcULMy9A==}
     dev: false
 
   /ansi-regex@5.0.1:
@@ -3087,22 +3072,10 @@ packages:
       - '@vue/composition-api'
     dev: false
 
-  /valaxy-theme-aurora@0.1.8:
-    resolution: {integrity: sha512-54D+pVBn7y76+k3B4zlgcFHGIZfyOwGie9tY77NDIw1HLwL4qRCq8wfHUv8SYVh2x9w5wEeTfTehs+Xak4ljFQ==}
+  /valaxy-theme-aurora@0.1.10:
+    resolution: {integrity: sha512-rN3Owfi8V6y0BM5XPfW5bI3H4ETqK8EuHJG29wBsft0Abwukwaum3k7ISqpETiWhC0zViWKyfjW7Cu4dWBplZw==}
     dependencies:
       dayjs: 1.11.9
-    dev: false
-
-  /valaxy-theme-yun@0.14.28(valaxy@0.14.40):
-    resolution: {integrity: sha512-P/7xpN+2Efbc6vkP/z7vgBFES+0wh+AENps5CyT9L5ftfoXI3qh/0WFT3aDz4EwBH2QmlJvQ92QFoZsheUG7HQ==}
-    dependencies:
-      '@iconify-json/ant-design': 1.1.5
-      '@iconify-json/simple-icons': 1.1.53
-      animejs: 3.2.1
-      valaxy-addon-waline: 0.1.0(valaxy@0.14.40)
-    transitivePeerDependencies:
-      - '@vue/composition-api'
-      - valaxy
     dev: false
 
   /valaxy@0.14.40(@types/markdown-it@12.2.3)(@unhead/vue@1.1.27)(postcss@8.4.26)(typescript@4.9.5):
