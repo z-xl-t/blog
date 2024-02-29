@@ -1,0 +1,78 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "薯条流浪法师",
+    "home_page_url": "https://blog.z-xl-t.top/",
+    "feed_url": "https://blog.z-xl-t.top/feed.json",
+    "description": "薯条流浪法师的个人博客",
+    "icon": "https://valaxy.site/valaxy-logo.png",
+    "author": {
+        "name": "VALAXY Developer",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "",
+            "content_html": "<h2>太长不看版</h2>\n<p><a href=\"https://www.bilibili.com/video/BV1dg4y127VA/\">自学 blender 10 天，一比一复刻月琴成果记录</a></p>\n<h2>起因</h2>\n<p>某一天，</p>\n",
+            "url": "https://blog.z-xl-t.top/posts/notebook/YueQin/index",
+            "title": "月琴的模型制作总结",
+            "summary": "blender是一款开源的建模软件，于是尝试用它来创建月琴的 3D 模型",
+            "date_modified": "2024-02-20T12:42:06.000Z",
+            "date_published": "2024-02-29T14:01:49.114Z",
+            "author": {
+                "name": "VALAXY Developer",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>起因</h2>\n<p>因为我的红米k60pro 安装了 termux，而同时我想要定时执行一些命令，所以自然而然的想到了 linux 的 crontab 命令。</p>\n<h2>尝试</h2>\n<p>在 termux 中用于定</p>\n",
+            "url": "https://blog.z-xl-t.top/posts/notebook/TermuxCronie/index",
+            "title": "分析 termux 的定时任务，为何不能后台定时执行",
+            "date_modified": "2023-10-09T14:27:43.000Z",
+            "date_published": "2024-02-29T14:01:49.098Z",
+            "author": {
+                "name": "VALAXY Developer",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>下载地址</h2>\n<p><a href=\"https://github.com/termux/termux-app/releases/tag/v0.118.0\">Github Termux</a></p>\n<p>[f-droid Termu</p>\n",
+            "url": "https://blog.z-xl-t.top/posts/notebook/TermuxGetStart/index",
+            "title": "termux 基本配置",
+            "summary": "Termux是一个安卓手机模拟Linux环境，本文是基于个人喜好的基本配置",
+            "date_modified": "2023-09-06T06:42:06.000Z",
+            "date_published": "2024-02-29T14:01:49.098Z",
+            "author": {
+                "name": "VALAXY Developer",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>说明</h2>\n<p><a href=\"https://xiaomi.eu/community/\">xiaomi.eu（小米欧洲）</a> 是成立于12年前，为国际用户提供英文 MIUI 安卓ROM和小米产品的专属社区，它是小</p>\n",
+            "url": "https://blog.z-xl-t.top/posts/notebook/RedmiK60Pro/index",
+            "title": "红米 K60Pro 刷 EU Stable ROM",
+            "summary": "红米 K60Pro 刷 EU Stable ROM,来提高个人使用体验。",
+            "date_modified": "2023-07-21T11:09:34.000Z",
+            "date_published": "2024-02-29T14:01:49.094Z",
+            "author": {
+                "name": "VALAXY Developer",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>写在前面</h2>\n<p>请访问此页面获得最新指南： <a href=\"https://aurora.zmxlt.top/\">valaxy-theme-aurora-example 站点</a></p>\n<p>[valaxy-theme-a</p>\n",
+            "url": "https://blog.z-xl-t.top/posts/notebook/20230430-valaxy-theme-aurora-tutorial/index",
+            "title": "valaxy-theme-aurora使用指南",
+            "summary": "valaxy 是一款超级快的静态博客框架",
+            "date_modified": "2023-05-02T00:00:00.000Z",
+            "date_published": "2024-02-29T14:01:49.086Z",
+            "author": {
+                "name": "VALAXY Developer",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}

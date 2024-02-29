@@ -1,0 +1,1 @@
+import{_ as t}from"./Layout.vue_vue_type_script_setup_true_lang-DXccPNmH.js";import{_ as n,h as c,o as r,c as _,w as s,m as a}from"./app-isxMD8Oa.js";const m={};function i(f,p){const o=c("router-view"),e=t;return r(),_(e,null,{"main-content":s(()=>[a(o)]),_:1})}const d=n(m,[["render",i]]);export{d as default};

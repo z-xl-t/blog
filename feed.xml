@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>薯条流浪法师</title>
+        <link>https://blog.z-xl-t.top/</link>
+        <description>薯条流浪法师的个人博客</description>
+        <lastBuildDate>Thu, 29 Feb 2024 14:02:34 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>薯条流浪法师</title>
+            <url>https://valaxy.site/valaxy-logo.png</url>
+            <link>https://blog.z-xl-t.top/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2024 © VALAXY Developer</copyright>
+        <atom:link href="https://blog.z-xl-t.top/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[月琴的模型制作总结]]></title>
+            <link>https://blog.z-xl-t.top/posts/notebook/YueQin/index</link>
+            <guid>https://blog.z-xl-t.top/posts/notebook/YueQin/index</guid>
+            <pubDate>Thu, 29 Feb 2024 14:01:49 GMT</pubDate>
+            <description><![CDATA[blender是一款开源的建模软件，于是尝试用它来创建月琴的 3D 模型]]></description>
+            <content:encoded><![CDATA[<h2>太长不看版</h2>
+<p><a href="https://www.bilibili.com/video/BV1dg4y127VA/">自学 blender 10 天，一比一复刻月琴成果记录</a></p>
+<h2>起因</h2>
+<p>某一天，</p>
+]]></content:encoded>
+            <author>i@valaxy.site (VALAXY Developer)</author>
+        </item>
+        <item>
+            <title><![CDATA[分析 termux 的定时任务，为何不能后台定时执行]]></title>
+            <link>https://blog.z-xl-t.top/posts/notebook/TermuxCronie/index</link>
+            <guid>https://blog.z-xl-t.top/posts/notebook/TermuxCronie/index</guid>
+            <pubDate>Thu, 29 Feb 2024 14:01:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>起因</h2>
+<p>因为我的红米k60pro 安装了 termux，而同时我想要定时执行一些命令，所以自然而然的想到了 linux 的 crontab 命令。</p>
+<h2>尝试</h2>
+<p>在 termux 中用于定</p>
+]]></content:encoded>
+            <author>i@valaxy.site (VALAXY Developer)</author>
+        </item>
+        <item>
+            <title><![CDATA[termux 基本配置]]></title>
+            <link>https://blog.z-xl-t.top/posts/notebook/TermuxGetStart/index</link>
+            <guid>https://blog.z-xl-t.top/posts/notebook/TermuxGetStart/index</guid>
+            <pubDate>Thu, 29 Feb 2024 14:01:49 GMT</pubDate>
+            <description><![CDATA[Termux是一个安卓手机模拟Linux环境，本文是基于个人喜好的基本配置]]></description>
+            <content:encoded><![CDATA[<h2>下载地址</h2>
+<p><a href="https://github.com/termux/termux-app/releases/tag/v0.118.0">Github Termux</a></p>
+<p>[f-droid Termu</p>
+]]></content:encoded>
+            <author>i@valaxy.site (VALAXY Developer)</author>
+        </item>
+        <item>
+            <title><![CDATA[红米 K60Pro 刷 EU Stable ROM]]></title>
+            <link>https://blog.z-xl-t.top/posts/notebook/RedmiK60Pro/index</link>
+            <guid>https://blog.z-xl-t.top/posts/notebook/RedmiK60Pro/index</guid>
+            <pubDate>Thu, 29 Feb 2024 14:01:49 GMT</pubDate>
+            <description><![CDATA[红米 K60Pro 刷 EU Stable ROM,来提高个人使用体验。]]></description>
+            <content:encoded><![CDATA[<h2>说明</h2>
+<p><a href="https://xiaomi.eu/community/">xiaomi.eu（小米欧洲）</a> 是成立于12年前，为国际用户提供英文 MIUI 安卓ROM和小米产品的专属社区，它是小</p>
+]]></content:encoded>
+            <author>i@valaxy.site (VALAXY Developer)</author>
+        </item>
+        <item>
+            <title><![CDATA[valaxy-theme-aurora使用指南]]></title>
+            <link>https://blog.z-xl-t.top/posts/notebook/20230430-valaxy-theme-aurora-tutorial/index</link>
+            <guid>https://blog.z-xl-t.top/posts/notebook/20230430-valaxy-theme-aurora-tutorial/index</guid>
+            <pubDate>Thu, 29 Feb 2024 14:01:49 GMT</pubDate>
+            <description><![CDATA[valaxy 是一款超级快的静态博客框架]]></description>
+            <content:encoded><![CDATA[<h2>写在前面</h2>
+<p>请访问此页面获得最新指南： <a href="https://aurora.zmxlt.top/">valaxy-theme-aurora-example 站点</a></p>
+<p>[valaxy-theme-a</p>
+]]></content:encoded>
+            <author>i@valaxy.site (VALAXY Developer)</author>
+        </item>
+    </channel>
+</rss>
