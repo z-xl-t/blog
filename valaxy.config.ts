@@ -1,12 +1,6 @@
-import { defineValaxyConfig } from 'valaxy'
-import type { ThemeConfig } from 'valaxy-theme-aurora'
-import { addonWaline } from 'valaxy-addon-waline'
+import { defineConfig } from 'valaxy'
 
-/**
- * User Config
- * do not use export const config to avoid defu conflict
- */
-export default defineValaxyConfig<ThemeConfig>({
+export default defineConfig({
   theme: 'aurora',
   themeConfig: {
     title: '薯条流浪法师',
@@ -127,14 +121,4 @@ export default defineValaxyConfig<ThemeConfig>({
       ],
     },
   },
-
-  // https://github.com/walinejs/waline
-  // https://waline.js.org/guide/get-started/#vercel-%E9%83%A8%E7%BD%B2-%E6%9C%8D%E5%8A%A1%E7%AB%AF
-  addons: [
-    addonWaline({
-      serverURL: '',
-      pageview: false,
-      comment: false,
-    }),
-  ],
 })
